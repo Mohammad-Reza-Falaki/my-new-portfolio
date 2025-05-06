@@ -32,8 +32,10 @@ export default function Home() {
         </button>
       </div>
       <div className="flex flex-col items-center justify-center mt-30">
-        <h2 className="text-xl mb-4">Welcome to My Portfolio!</h2>
-        <p className="mb-4">Explore my projects, experience, and contact me!</p>
+        <h2 className="text-xl mb-4 text-teal-600">Welcome to My Portfolio.</h2>
+        <p className="mb-4 text-white">
+          Explore my projects, experience, and contact me!
+        </p>
         <div className="flex gap-12">
           <Link href="/projects">
             <button className="bg-blue-600 p-2 rounded">Projects</button>
@@ -45,6 +47,13 @@ export default function Home() {
             <button className="bg-yellow-600 p-2 rounded">Contact</button>
           </Link>
         </div>
+      </div>
+      <div>
+        <footer className="text-center text-sm py-20 text-gray-500 dark:text-gray-400">
+          Designed and developed with <span className="text-red-500">♥</span> by{" "}
+          <strong>Mohammadreza Falaki</strong> using Next.js, Tailwind CSS, and
+          TypeScript — 2025
+        </footer>
       </div>
     </div>
   );
