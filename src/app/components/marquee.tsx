@@ -4,7 +4,7 @@ export default function Marquee() {
       <div className="flex animate-marquee gap-x-10 text-white text-2xl font-semibold whitespace-nowrap">
         {" "}
         Microstructure | Mechanical Properties | Machine Learning | Python | MATLAB | Next.js | Tailwind | MD Simulation | AI in Materials Sience
-        | | Python | MATLAB | Next.js | Tailwind | MD Simulation | AI in
+        | Python | MATLAB | Next.js | Tailwind | MD Simulation | AI in
         Materials Sience | 
       </div>
     </div>

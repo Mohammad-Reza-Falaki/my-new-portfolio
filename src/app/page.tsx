@@ -34,7 +34,7 @@ export default function Home() {
         </button>
       </div>
       <div className="flex flex-col items-center justify-center mt-30">
-        <h2 className="text-4xl leading-tight md:text-5xl font-bold mb-4 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 text-transparent bg-clip-text">
+        <h2 className="text-4xl text-center md:text-5xl leading-tight font-bold mb-4 bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 text-transparent bg-clip-text">
           Welcome to My Portfolio.
         </h2>
         <p className="mb-4 text-white font-bold">
