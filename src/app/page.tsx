@@ -44,17 +44,17 @@ export default function Home() {
         </p>
         <div className="flex flex-col text-center md:flex-row gap-3">
           <Link href="/projects">
-            <button className="bg-[#ff9500] font-semibold cursor-pointer hover:bg-[#ffa500] transition-colors duration-200 p-2 rounded">
+            <button className="bg-[#ff9500] font-semibold cursor-pointer hover:bg-[#ffa500] transition-colors duration-200 p-2 rounded-xl">
               Projects
             </button>
           </Link>
           <Link href="/experience">
-            <button className="bg-green-500 font-semibold cursor-pointer hover:bg-green-800 transition-colors duration-200 p-2 rounded">
+            <button className="bg-green-500 font-semibold cursor-pointer hover:bg-green-800 transition-colors duration-200 p-2 rounded-xl">
               Experience
             </button>
           </Link>
           <Link href="/contact">
-            <button className="bg-[#c54df5] font-semibold cursor-pointer hover:bg-yellow-800 transition-colors duration-200 p-2 rounded">
+            <button className="bg-[#c54df5] font-semibold cursor-pointer hover:bg-yellow-800 transition-colors duration-200 p-2 rounded-xl">
               Contact
             </button>
           </Link>
