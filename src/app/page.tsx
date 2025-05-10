@@ -39,7 +39,7 @@ export default function Home() {
         <h2 className="text-4xl text-center md:text-5xl leading-tight font-bold mb-4 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">
           Welcome to My Portfolio.
         </h2>
-        <p className="mb-4 text-[#924802] font-bold">
+        <p className="mb-4 text-[#ff3300] font-bold">
           Explore my projects, experience, and contact me!
         </p>
         <div className="flex flex-col text-center md:flex-row gap-3">
@@ -65,7 +65,7 @@ export default function Home() {
       </div>
       <div>
         <footer className="text-center text-sm py-10 text-gray-500 dark:text-gray-400">
-          Designed and developed with <span className="text-red-500">♥</span> by{" "}
+          Designed and developed with <span className="text-red-500 text-lg">♥</span> by{" "}
           <strong className="bg-sky-100 p-0.5 md:p-1 rounded text-gray-600 hover:bg-sky-300 transition-colors duration-200">
             Mohammadreza Falaki
           </strong>{" "}
