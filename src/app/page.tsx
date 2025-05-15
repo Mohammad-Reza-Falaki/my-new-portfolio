@@ -28,7 +28,7 @@ export default function Home() {
             </p>
           </div>
           <button
-            className="bg-secondary text-black dark:text-white bg-sky-200 dark:bg-sky-500 p-2 rounded"
+            className="bg-secondary text-black cursor-pointer dark:text-white bg-sky-200 dark:bg-sky-500 p-2 w-[150px] rounded-full"
             onClick={toggleDarkMode}
           >
             {darkMode ? "Light Mode" : "Dark Mode"}
@@ -36,25 +36,25 @@ export default function Home() {
         </div>
       </header>
       <div className="flex flex-col items-center justify-center mt-20">
-        <h2 className="text-4xl text-center md:text-5xl leading-tight font-bold mb-4 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">
+        <h2 className="text-4xl text-center md:text-7xl leading-tight font-bold mb-4 bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 text-transparent bg-clip-text">
           Welcome to My Portfolio.
         </h2>
-        <p className="mb-4 text-[#ff3300] font-bold">
+        <p className="mb-4 text-2xl text-[#ff3300] dark:text-[#ff6262] font-bold">
           Explore my projects, experience, and contact me!
         </p>
-        <div className="flex flex-col text-center md:flex-row gap-3">
+        <div className="flex mt-8 flex-col text-center md:flex-row gap-3">
           <Link href="/projects">
-            <button className="bg-[#ff9500] font-semibold cursor-pointer hover:bg-[#ffa500] transition-colors duration-200 p-2 rounded-xl">
+            <button className="bg-[#ff9500] font-semibold text-xl cursor-pointer hover:bg-[#ffa500] transition-colors duration-200 p-2 rounded-xl">
               Projects
             </button>
           </Link>
           <Link href="/experience">
-            <button className="bg-green-500 font-semibold cursor-pointer hover:bg-green-800 transition-colors duration-200 p-2 rounded-xl">
+            <button className="bg-green-500 font-semibold text-xl cursor-pointer hover:bg-green-800 transition-colors duration-200 p-2 rounded-xl">
               Experience
             </button>
           </Link>
           <Link href="/contact">
-            <button className="bg-[#c54df5] font-semibold cursor-pointer hover:bg-yellow-800 transition-colors duration-200 p-2 rounded-xl">
+            <button className="bg-[#c54df5] font-semibold text-xl cursor-pointer hover:bg-yellow-800 transition-colors duration-200 p-2 rounded-xl">
               Contact
             </button>
           </Link>
@@ -65,7 +65,8 @@ export default function Home() {
       </div>
       <div>
         <footer className="text-center text-sm py-10 text-gray-500 dark:text-gray-400">
-          Designed and developed with <span className="text-red-500 text-lg">♥</span> by{" "}
+          Designed and developed with{" "}
+          <span className="text-red-500 text-lg">♥</span> by{" "}
           <strong className="bg-sky-100 p-0.5 md:p-1 rounded text-gray-600 hover:bg-sky-300 transition-colors duration-200">
             Mohammadreza Falaki
           </strong>{" "}
