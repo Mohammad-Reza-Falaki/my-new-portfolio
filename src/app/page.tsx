@@ -20,15 +20,15 @@ export default function Home() {
       } text-white`}
     >
       <header className="bg-blue-950 backdrop-blur-md border-b rounded-b-xl border-white/20 shadow-md z-50">
-        <div className="flex justify-between p-6">
+        <div className="flex justify-between p-3 md:p-6">
           <div>
-            <h1 className="text-3xl">Mohammadreza Falaki</h1>
-            <p className="text-xl">
+            <h1 className="text-xl md:text-3xl">Mohammadreza Falaki</h1>
+            <p className="text-[15px] md:text-xl">
               Master Student at Sharif University of Technology
             </p>
           </div>
           <button
-            className="bg-secondary text-black cursor-pointer dark:text-white bg-sky-200 dark:bg-sky-500 p-2 w-[150px] rounded-full"
+            className="bg-secondary text-black cursor-pointer dark:text-white bg-sky-200 dark:bg-sky-500 p-2 w-[100px] md:w-[150px] rounded-full"
             onClick={toggleDarkMode}
           >
             {darkMode ? "Light Mode" : "Dark Mode"}
@@ -36,10 +36,10 @@ export default function Home() {
         </div>
       </header>
       <div className="flex flex-col items-center justify-center mt-20">
-        <h2 className="text-4xl text-center md:text-7xl leading-tight font-bold mb-4 bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 text-transparent bg-clip-text">
+        <h2 className="text-5xl text-center md:text-7xl leading-tight font-bold mb-4 bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 text-transparent bg-clip-text">
           Welcome to My Portfolio.
         </h2>
-        <p className="mb-4 text-2xl text-[#ff3300] dark:text-[#ff6262] font-bold">
+        <p className="mb-4 text-center text-2xl text-black dark:text-[#6943ff] font-bold">
           Explore my projects, experience, and contact me!
         </p>
         <div className="flex mt-8 flex-col text-center md:flex-row gap-3">
