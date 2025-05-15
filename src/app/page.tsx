@@ -28,10 +28,10 @@ export default function Home() {
             </p>
           </div>
           <button
-            className="bg-secondary text-black bg-sky-200 p-2 rounded"
+            className="bg-secondary text-black dark:text-white bg-sky-200 dark:bg-sky-500 p-2 rounded"
             onClick={toggleDarkMode}
           >
-            Toggle Dark/Light Mode
+            {darkMode ? "Light Mode" : "Dark Mode"}
           </button>
         </div>
       </header>
