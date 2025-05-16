@@ -39,9 +39,6 @@ export default function Home() {
         <h2 className="text-5xl text-center md:text-7xl leading-tight font-bold mb-4 bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 text-transparent bg-clip-text">
           Welcome to My Portfolio.
         </h2>
-        <div className="mt-5 text-center">
-          <Marquee />
-        </div>
         <p className="mt-8 text-center text-2xl text-black dark:text-[#6943ff] font-bold">
           Explore my projects, experience, and contact me!
         </p>
@@ -62,6 +59,9 @@ export default function Home() {
             </button>
           </Link>
         </div>
+      </div>
+      <div className="mt-5 text-center">
+        <Marquee />
       </div>
       <div>
         <footer className="text-center text-sm py-10 text-gray-500 dark:text-gray-400">
