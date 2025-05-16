@@ -46,25 +46,13 @@ a {
 }
 
 .animate-marquee {
-  animation: marquee 50s linear infinite;
+  animation: marquee 250s linear infinite;
   float: left;
 }
 
-/* .marquee-container {
-  overflow: hidden;
-  white-space: nowrap;
-  display: flex;
-}
-
-.marquee-content {
-  display: flex;
-  gap: 2rem;
-  animation: marquee 25s linear infinite;
-} */
-
 @keyframes marquee {
   0% {
-    transform: translateX(100%);
+    transform: translateX(0);
   }
   100% {
     transform: translateX(-100%);

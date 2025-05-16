@@ -14,7 +14,7 @@ export default function Marquee() {
   return (
     <div className="overflow-hidden whitespace-nowrap bg-[#16173b] py-3">
       <div className="inline-flex animate-marquee space-x-4">
-        {[...marqueeData, ...marqueeData].map((item, index) => (
+        {[...marqueeData, ...marqueeData, ...marqueeData, ...marqueeData].map((item, index) => (
           <div
             key={index}
             className="bg-sky-700 text-white text-xl font-semibold px-6 py-3 rounded-xl shadow-md bg-gradient-to-r from-[#1e2e52] via-[#3b82f6] to-[#1e2e52]
