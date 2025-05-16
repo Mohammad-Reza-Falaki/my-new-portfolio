@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useState } from "react";
 
-import Marquee from "./components/marquee";
+import Marquee from "../../public/components/marquee";
 
 export default function Home() {
   const [darkMode, setDarkMode] = useState(false);
@@ -19,7 +19,7 @@ export default function Home() {
         darkMode ? "bg-primary" : "bg-white"
       } text-white`}
     >
-      <header className="bg-blue-950 backdrop-blur-md border-b rounded-b-xl border-white/20 shadow-md z-50">
+      <header className="bg-blue-950 backdrop-blur-md border-b border-white/20 shadow-md z-50">
         <div className="flex justify-between p-3 md:p-6">
           <div>
             <h1 className="text-xl md:text-3xl">Mohammadreza Falaki</h1>

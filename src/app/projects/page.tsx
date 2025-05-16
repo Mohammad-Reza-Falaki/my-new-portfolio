@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-import CodeBlock from "../components/codeblock";
+import CodeBlock from "../../../public/components/codeblock";
 
 const projects = [
   {

@@ -12,7 +12,7 @@ const marqueeData = [
 
 export default function Marquee() {
   return (
-    <div className="overflow-hidden whitespace-nowrap bg-[#16173b] rounded-md py-3">
+    <div className="overflow-hidden whitespace-nowrap bg-[#16173b] py-3">
       <div className="inline-flex animate-marquee space-x-4">
         {[...marqueeData, ...marqueeData].map((item, index) => (
           <div
